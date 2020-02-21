@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+} /* working with whole website*/
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: lightblue;
+}
+/* centering the website */
+
+#center_maker{
+	width: 960px;
+	margin: 0px auto; /* center the body perfectly*/
+    text-align: left;
+    background-color: seashell;
+}
+/* aside starts from here */
+#aside{
+	width: 296px; /* first 320 - 20 = 300px, second 300 - 4 = 296px */
+	border: 2px solid aqua; /* from left n right side -4px */
+	padding: 10px; /* from left n right side -20px */
+	float: left;
+	text-align: center;
+}
+/* aside ends from here */
+
+/* section starts from here */
+#section{
+	width: 606px; /* first 640 - 20 = 620px, second 620 - 10 = 610px, third 610 - 4 = 606px */
+	padding: 10px; /* from left n right side -20px */
+	margin: 0px 0px 10px 10px; /* from left n right side -10px */
+	border: 2px solid aqua; /* from left n right side -4px */
+	float: left;
+
+}
+/* section ends from here */
+
+/* footer starts from here */
+#footer{
+	border: 2px solid aqua;
+	padding: 20px;
+	text-align: center;
+	clear: left;
+}
+/* footer ends from here */
+#section ul li{
+	margin: 15px;
+	
+}
+
+#button{
+	border: 2px solid black;
+	background: none;
+	background-color: aqua;
+	color: blue;
+	padding: 5px 10px;
+	font-size: 15px;
+	font-family: "Arial";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s; 	
+}
+a:hover{
+	color: green;
+}
+
+#img{
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
